@@ -1,4 +1,4 @@
 class Flight < ApplicationRecord
-    has_many :airports
-    belongs_to :airports
+    has_and_belongs_to_many :airports
 end
+  
